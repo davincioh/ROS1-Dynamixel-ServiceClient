@@ -3,6 +3,8 @@
 앞서 01 글에서는 Dynamixel Workbench의 Controller를 이용하여 모터의 위치제어를 하였습니다.
 오늘은 내가만든 프로그램에서 모터에 명령을 내리는법을 익혀보겠습니다. 
 
+![index](./images/img01.png)
+
 
 Controller Server와 클라이언트
 --
@@ -16,6 +18,10 @@ ROS Tutorials에서 제공하는 서비스 메시지 통신 예제입니다.
 - [C++ 통신예제](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29)
 
 서비스는 로봇에 특정 동작을 수행하도록 요청할 때 사용됩니다. 장점으로는 일회성 통신 방식이라 네트워크에 부하가 적습니다.
+
+![network](./images/img02.png)
+
+
 
 rosservice client 응용하기 
 --
@@ -114,4 +120,6 @@ ROS_INFO("send ID and Position Value : %ld, %ld", (uint8_t)srv.request.id, (int3
 
 
 각 Item에 id와 각도 값을 넣어주면 workbench의 controllers가 동작하게 됩니다. 이제 Controller 노드와, Client 노드를 각각 실행하게되면 키보드 입력에따라 모터가 움직이게 됩니다.
+
+![control](./images/img03.png)
 
