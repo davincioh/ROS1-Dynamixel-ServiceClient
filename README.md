@@ -20,6 +20,7 @@ ROS Tutorials에서 제공하는 서비스 메시지 통신 예제입니다.
 서비스는 로봇에 특정 동작을 수행하도록 요청할 때 사용됩니다. 장점으로는 일회성 통신 방식이라 네트워크에 부하가 적습니다.
 
 ![network](./images/img02.png)
+> 출처 : https://medium.com/@raymonduchen/ros-%E6%87%B6%E4%BA%BA%E7%AD%86%E8%A8%98-4-%E4%BB%A5c-%E6%92%B0%E5%AF%ABservice%E8%88%87client-1f5fa3184c60
 
 
 
